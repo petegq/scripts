@@ -4,7 +4,7 @@
 
 # wget https://raw.githubusercontent.com/petegq/scripts/master/test1.txt
 
-baseURL=raw.githubusercontent.com/petegq/scripts/master/
+baseURL=raw.githubusercontent.com/petegq/scripts/master/test/
 
 fileList=(
     test1.txt
