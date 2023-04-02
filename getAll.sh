@@ -17,8 +17,3 @@ fileList=(
 for i in "${fileList[@]}"; do
     wget https://${baseURL}$i
 done
-
-# for i in {1..5}
-# do
-#     wget https://${baseURL}test$i.txt
-# done
