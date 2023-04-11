@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Usage: ./generate_system_map.sh /path/to/directory
-# Example: ./generate_system_map.sh /home/user
+# Usage: ./dir_map.sh /path/to/directory
+# Example: ./dir_map.sh /home/user
+# chmod +x dir_map.sh before use
+
 
 if [ -z "$1" ]
 then
