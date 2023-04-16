@@ -12,8 +12,8 @@ then
 fi
 
 DIRECTORY="$1"
-OUTPUT_FILE="test/map.txt"
-ERROR_FILE="test/error.txt"
+OUTPUT_FILE="output/map.txt"
+ERROR_FILE="output/error.txt"
 
 echo "Generating system map for $DIRECTORY..."
 
