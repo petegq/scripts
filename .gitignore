@@ -1,1 +1,6 @@
-test/
+# General Output folder
+output/*
+!output/output.txt
+
+text-extraction/output/*
+!text-extraction/output/output.txt
