@@ -1,20 +1,16 @@
 #!/bin/bash
 
 # input=$1
-input="text-extraction/input/transcript.json"
-
-# output_folder=$2
-output_folder=text-extraction/output/
+input="input/transcript.json"
 
 # search=$3
-search="text simpleText"
+search="simpleText text"
 
-IFS=' ' read -ra patterns <<< "$search"
+IFS=' ' read -ra patterns <<<"$search"
 
 # Iterate over the patterns
 for pattern in "${patterns[@]}"; do
-    output="$output_folder${pattern}.txt"
+    output="output/${pattern}.txt"
     grep "\"${pattern}\"" "$input" >"$output"
     echo "Extracted lines with: ${pattern}"
 done
-
